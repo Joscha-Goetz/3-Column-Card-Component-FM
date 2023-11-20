@@ -23,13 +23,17 @@ body {
   min-height: 100vh;
 }
 
-.attribution {
+.footer {
   font-size: 11px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.attribution a {
+.footer a {
   color: hsl(228, 45%, 44%);
 }
+
 
 /*
 OWN CODE
@@ -46,6 +50,25 @@ OWN CODE
 }
 
 body {
+  /* style */
   font-size: 15px;
   background: var(--very-light-gray);
+  /* footer and main */
+  display: grid;
+  grid-template-rows: 1fr 2rem;
+  
+}
+
+.main {
+  background-color: lightblue;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 5rem 1rem 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: lightgoldenrodyellow;
+  height: 100%;
 }
