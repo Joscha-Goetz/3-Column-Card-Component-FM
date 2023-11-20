@@ -93,16 +93,19 @@ button {
   background-color: var(--bright-orange);
   border: .125rem solid white;
   color: var(--very-light-gray);
+  cursor: pointer;
 }
 #cyan:hover {
   background-color: var(--dark-cyan);
   border: .125rem solid white;
   color: var(--very-light-gray);
+  cursor: pointer;
 }
 #dark-cyan:hover {
   background-color: var(--very-dark-cyan);
   border: .125rem solid white;
   color: var(--very-light-gray);
+  cursor: pointer;
 }
 
 .main {
